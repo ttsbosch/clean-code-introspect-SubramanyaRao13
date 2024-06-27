@@ -6,4 +6,8 @@ int StringCalculator::add(string input)
         {
            return 0;
         }
+        if((input.length() == 1) && input[0] == 0)
+        {
+                return 0;
+        }
 }
