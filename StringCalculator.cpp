@@ -10,4 +10,5 @@ int StringCalculator::add(string input)
         {
                 return 0;
         }
+        return 1;
 }
